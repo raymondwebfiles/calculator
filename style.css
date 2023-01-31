@@ -1,0 +1,126 @@
+
+
+body{
+    background-color: black;
+}
+/*Main Div*/
+.container{
+    font-size: 25px;
+    padding: 10px;
+    margin-left: 2.5cm ;
+    border: solid 2px cyan;
+    height: 7cm; width: 6cm;
+    border-radius: 10px;
+    background-color: black;
+}
+/* Div for image and textbox */
+.container > .line{
+    display: flex;
+    
+}
+    .container > .line >img{
+        flex: .5;
+        height: 0.7cm;  
+        margin-top: 10px;
+        margin-left: .4cm;
+        background-color: black;
+    }
+
+    .container > .line >input{
+        height: 0.7cm;
+        margin-top: 10px;
+        margin-left: 7px;
+        margin-bottom: 10px;
+        text-align: right;
+        font-family: 'Times New Roman', Times, serif;
+        background-color: black;
+        border-radius: 10px;
+        color: white;
+    }.container > .line >input:hover{transition: 0.5s; background-color: white; color: black;}
+
+
+/* Div for  1 2 3 button */
+.container > .row-1{
+    display: flex;
+}
+    .container > .row-1 > input{
+        flex: 1;
+        font-weight: bold;
+        font-size: 0.4cm;
+        height: 1cm;
+        margin: 2px;
+        text-align: center;
+        color: white;
+        border-radius: 10px;
+        border-color: chartreuse;
+        background-color: black;
+    }   .container > .row-1 > input:hover{transition: 0.5s; background-color: chartreuse; color: black;}
+
+    /* Div for  4 5 6  button */    
+    .container > .row-2{
+        display: flex;
+    }
+        .container > .row-2 > input{
+            flex: 1;
+            font-weight: bold;
+            font-size: 0.4cm;
+            height: 1cm;
+            margin: 2px;
+            text-align: center;
+            color: white;
+            border-radius: 10px;
+            border-color: cyan;
+            background-color: black;
+        }.container > .row-2 > input:hover{transition: 0.5s;background-color: cyan; color: black;}
+
+        /* Div for  7 8 9 button */
+        .container > .row-3{
+            display: flex;
+        }
+            .container > .row-3 > input{
+                flex: 1;
+                font-weight: bold;
+                font-size: 0.4cm;
+                margin: 2px;
+                height: 1cm;
+                text-align: center;
+                color: white;
+                border-radius: 10px;
+                border-color: rgb(255, 0, 234);
+                background-color: black;
+            }.container > .row-3 > input:hover{transition: 0.5s;background-color: rgb(255, 0, 234); color: black;}
+
+            /* Div for  MDAS button */
+            .container > .row-4{
+                display: flex;
+            }
+                .container > .row-4 > input{
+                    flex: 1;
+                    font-weight: bold;
+                    font-size: 0.4cm;
+                    margin: 2px;
+                    height: 1cm;
+                    text-align: center;
+                    color: white;
+                    border-radius: 10px;
+                    border-color: rgb(213, 228, 11);
+                    background-color: black;
+                }.container > .row-4 > input:hover{transition: 0.5s;background-color: rgb(213, 228, 11); color: black;}
+
+                /* Div for  0 and = button */
+                .container > .row-5{
+                    display: flex;
+                }
+                    .container > .row-5 > input{
+                        flex: 1;
+                        font-weight: bold;
+                        font-size: 0.4cm;
+                        margin: 2px;
+                        height: 1cm;
+                        text-align: center;
+                        color: white;
+                        border-radius: 10px;
+                        border-color: rgb(4, 187, 243);
+                        background-color: black;
+                    }.container > .row-5 > input:hover{transition: 0.5s;background-color: rgb(4, 187, 243); color: black;}          
+            
